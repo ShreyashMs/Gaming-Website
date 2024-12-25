@@ -10,6 +10,7 @@ const FloatingImage = () => {
   const openLink = () => {
     window.open("https://pubg.com/en/game-info/overview", "_blank");
   };
+  
   const handleMouseMove = (e) => {
     const { clientX, clientY } = e;
     const element = frameRef.current;
