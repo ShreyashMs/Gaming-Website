@@ -1,10 +1,8 @@
 import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
 
 const socialLinks = [
-  { href: "https://discord.com", icon: <FaDiscord /> },
-  { href: "https://twitter.com", icon: <FaTwitter /> },
-  { href: "https://youtube.com", icon: <FaYoutube /> },
-  { href: "https://medium.com", icon: <FaMedium /> },
+  { href: "https://discord.com/users/648809024996900866", icon: <FaDiscord /> },
+  { href: "https://x.com/Shreyash_Ms10", icon: <FaTwitter /> },
 ];
 
 const Footer = () => {
@@ -22,7 +20,7 @@ const Footer = () => {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black transition-colors duration-500 ease-in-out hover:text-white"
+              className="text-black transition-colors duration-500 ease-in-out hover:text-blue-400"
             >
               {link.icon}
             </a>
