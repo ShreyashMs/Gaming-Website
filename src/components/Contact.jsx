@@ -7,6 +7,10 @@ const ImageClipBox = ({ src, clipClass }) => (
   </div>
 );
 
+const openLink = () => {
+  window.open('https://portfolio-of-shreyash.vercel.app/', '_blank'); 
+};
+
 const Contact = () => {
   return (
     <div id="contact" className="my-20 min-h-96 w-screen  px-10">
@@ -43,7 +47,7 @@ const Contact = () => {
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
 
-          <Button title="contact us" containerClass="mt-10 cursor-pointer" />
+          <Button title="contact us" containerClass="mt-10 cursor-pointer" openLink={openLink}/>
         </div>
       </div>
     </div>
