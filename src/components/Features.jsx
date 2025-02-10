@@ -105,7 +105,11 @@ const Features = () => (
         <p className="font-circular-web text-lg text-blue-50">
           Step into the Battlegrounds
         </p>
-     
+        <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
+          Immerse yourself in the ultimate survival challenge, where every
+          player fights for dominance. Explore a vast and ever-evolving world,
+          where strategy, teamwork, and quick reflexes lead to victory.
+        </p>
       </div>
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
